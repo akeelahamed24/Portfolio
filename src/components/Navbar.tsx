@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Code2 className="h-8 w-8 text-indigo-500" />
-            <span className="text-xl font-bold text-white">Portfolio</span>
+            <span className="text-xl font-bold text-white">Akeel Ahamed</span>
           </Link>
           
           <div className="hidden md:block">
