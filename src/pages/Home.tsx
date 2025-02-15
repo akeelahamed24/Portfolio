@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, ArrowRight, Download, Code, Globe, Database } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Resume from '../assets/resume.pdf';
+import Akeel from '../assets/Akeel.png';
 
 export default function Home() {
   const skills = [
@@ -18,20 +20,20 @@ export default function Home() {
         className="text-center max-w-4xl mx-auto"
       >
         <img
-          src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop&q=80"
+          src={Akeel}
           alt="Profile"
           className="w-32 h-32 rounded-full mx-auto mb-8 border-4 border-indigo-500 shadow-lg shadow-indigo-500/20"
         />
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-          John Doe
+          Akeel Ahamed R S
         </h1>
         <p className="text-xl text-gray-400 mb-4">
-          Senior Software Engineer
+          Computer Science Engineer
         </p>
         <p className="text-gray-300 max-w-2xl mx-auto mb-8">
-          Passionate about creating elegant solutions to complex problems. 
-          Specializing in full-stack development with 5+ years of experience 
-          in building scalable applications.
+        Prefinal-year CS student passionate about app development, 
+        analytics, and problem-solving. Eager to collaborate, innovate, 
+        and impact real-world challenges.
         </p>
         
         <div className="flex justify-center space-x-4 mb-8">
@@ -68,10 +70,12 @@ export default function Home() {
             <ArrowRight className="h-4 w-4" />
           </Link>
           <a
-            href="/resume.pdf"
+            href={Resume}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 bg-gray-700 text-white px-6 py-3 rounded-full hover:bg-gray-600 transition-colors"
           >
-            <span>Download CV</span>
+            <span>View Resume</span>
             <Download className="h-4 w-4" />
           </a>
         </div>
