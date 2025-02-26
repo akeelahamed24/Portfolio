@@ -21,9 +21,9 @@ export default function About() {
   ];
 
   const stats = [
-    { icon: Coffee, value: "5+", label: "Years Experience" },
-    { icon: Users, value: "50+", label: "Clients Worldwide" },
-    { icon: BookOpen, value: "30+", label: "Projects Completed" }
+    { icon: Coffee, value: "3+", label: "Years Experience" },
+    { icon: Users, value: "10+", label: "Clients Worldwide" },
+    { icon: BookOpen, value: "23+", label: "Projects Completed" }
   ];
 
   return (
@@ -58,15 +58,10 @@ export default function About() {
           <div className="bg-gray-800/50 rounded-lg p-6 mb-12">
             <h2 className="text-2xl font-bold text-white mb-4">Professional Summary</h2>
             <p className="text-gray-300 leading-relaxed mb-6">
-              I'm a passionate Computer Science Engineer with over 5 years of experience
-              in full-stack development. I specialize in building scalable web applications
-              and solving complex technical challenges. My journey in tech started during
-              my university years, and I've been continuously learning and growing ever since.
+            As a prefinal-year computer science student at Sri Venkateswara College of Engineering, I'm driven by a strong motivation and aspiration to utilize my analytical skills and passion for app development to make a meaningful impact.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              I believe in writing clean, maintainable code and following best practices.
-              My experience includes working with diverse teams, mentoring junior developers,
-              and delivering high-impact projects for clients worldwide.
+            I am eager to collaborate with like-minded individuals, continuously advance my expertise, and apply my knowledge to tackle real-world challenges effectively
             </p>
           </div>
 
@@ -110,14 +105,14 @@ export default function About() {
             <h2 className="text-2xl font-bold text-white mb-4">Education</h2>
             <div className="space-y-4">
               <div>
-                <h3 className="text-lg font-semibold text-white">Master of Science in Computer Science</h3>
-                <p className="text-indigo-400">Stanford University</p>
-                <p className="text-gray-400">2016 - 2018</p>
+                <h3 className="text-lg font-semibold text-white">Bachelor of Engineering in Computer Science</h3>
+                <p className="text-indigo-400">Sri Venkateswara College of Engineering College</p>
+                <p className="text-gray-400">2022 - 2026</p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-white">Bachelor of Engineering in Computer Science</h3>
-                <p className="text-indigo-400">MIT</p>
-                <p className="text-gray-400">2012 - 2016</p>
+                <h3 className="text-lg font-semibold text-white">Higher Secondary</h3>
+                <p className="text-indigo-400">Maharishi International Residential School</p>
+                <p className="text-gray-400">2020 - 2022</p>
               </div>
             </div>
           </motion.div>

@@ -4,25 +4,25 @@ import { Building2, Calendar } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      company: "Tech Corp",
-      position: "Senior Software Engineer",
-      period: "2021 - Present",
-      description: "Led development of microservices architecture, mentored junior developers, and implemented CI/CD pipelines.",
-      technologies: ["React", "Node.js", "AWS", "Docker"]
+      company: "Hashigo Technologies",
+      position: "Software Intern",
+      period: "2 months",
+      description: "Worked on development of microservices architecture, used React.js and postgreSQL.",
+      technologies: ["React", "Node.js", "PostgreSQL", "Docker"]
     },
     {
-      company: "Innovation Labs",
-      position: "Software Engineer",
-      period: "2019 - 2021",
-      description: "Developed and maintained multiple full-stack applications, improved system performance by 40%.",
-      technologies: ["Vue.js", "Python", "PostgreSQL", "Redis"]
+      company: "Forum Of Data Science Engineers",
+      position: "Strategic Analyst",
+      period: "2023-Present",
+      description: "Management and Leadership role in the organization.",
+      technologies: ["React", "Python", "firebase", "PowerBI"]
     },
     {
       company: "StartUp Inc",
       position: "Junior Developer",
       period: "2018 - 2019",
       description: "Worked on frontend development and participated in agile development processes.",
-      technologies: ["JavaScript", "HTML/CSS", "Git"]
+      technologies: ["JavaScript", "HTML/CSS"]
     }
   ];
 

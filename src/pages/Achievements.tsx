@@ -5,21 +5,21 @@ export default function Achievements() {
   const achievements = [
     {
       icon: Trophy,
-      title: "Best Innovation Award 2023",
-      organization: "Tech Excellence Awards",
-      description: "Recognized for developing an AI-powered code review system that improved team productivity by 35%."
+      title: "SIH24 Finale",
+      organization: "Govt of India",
+      description: "Finalist in Smart India Hackathon 2024, a national-level hackathon organized by the Government of India."
     },
     {
       icon: Medal,
-      title: "Published Research Paper",
-      organization: "International Journal of Computer Science",
-      description: "Research on 'Optimizing Microservices Architecture for Scale' published in a peer-reviewed journal."
+      title: "UMAGINETN25 Kynnovate Third Place",
+      organization: "Govt of Tamil Nadu",
+      description: "Winner of the UMAGINETN25 Kynnovate"
     },
     {
       icon: Award,
-      title: "Open Source Contributor",
-      organization: "Various Projects",
-      description: "Active contributor to multiple open-source projects with over 500+ contributions on GitHub."
+      title: "Make-a-thon 4.0 Runner Up",
+      organization: "Department of ECE",
+      description: "Runner up in the Make-a-thon 4.0, a hardware hackathon organized by the Department of ECE."
     }
   ];
 
@@ -75,11 +75,11 @@ export default function Achievements() {
             <ul className="space-y-3">
               <li className="flex items-center text-gray-300">
                 <div className="h-2 w-2 bg-indigo-500 rounded-full mr-3"></div>
-                AWS Certified Solutions Architect
+                Flutter Developer with Firebase
               </li>
               <li className="flex items-center text-gray-300">
                 <div className="h-2 w-2 bg-indigo-500 rounded-full mr-3"></div>
-                Google Cloud Professional Developer
+                Git Essentials: Learn Git with Bitbucket and Sourcetree
               </li>
               <li className="flex items-center text-gray-300">
                 <div className="h-2 w-2 bg-indigo-500 rounded-full mr-3"></div>
